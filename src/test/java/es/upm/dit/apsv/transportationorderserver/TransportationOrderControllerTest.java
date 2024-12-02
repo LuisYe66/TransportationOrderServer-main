@@ -105,7 +105,7 @@ public class TransportationOrderControllerTest {
                         0, 0.0, 0.0, 0)));
         RequestBuilder request = MockMvcRequestBuilders
 
-                .get("/transportationorders/{truck}")
+                .get("/transportationorders/8962ZKR")
 
                 .accept(MediaType.APPLICATION_JSON);
         MvcResult result = mockMvc.perform(request)
